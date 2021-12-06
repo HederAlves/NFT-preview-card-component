@@ -1,2 +1,55 @@
+:root {
+	--marginText: 32px;
+}
+
 body {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+section {
+	background: hsl(216, 50%, 16%);
+	color: white;
+	line-height: 1.5;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	width: 30%;
+	border-radius: 15px;
+}
+
+section img {
+	width: 85%;
+	padding: 30px;
+}
+
+section div img {
+	width: 15%;
+}
+
+section h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: var(--marginText);
+}
+
+section p {
+	margin-left: var(--marginText);
+	font-size: 21x;
+	color: hsl(215, 51%, 70%);
+}
+
+section div span {
+	color: hsl(178, 100%, 50%);
+	margin-left: var(--marginText);
+}
+
+section div {
+	display: flex;
+	justify-content: space-between;
+	margin-right: var(--marginText);
+}
+
+section h2 {
+	vertical-align: middle;
 }
