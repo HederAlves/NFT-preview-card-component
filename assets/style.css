@@ -6,8 +6,8 @@
 body {
 	display: flex;
 	justify-content: center;
-	margin-top: 150px;
-	margin: 120px auto;
+	margin: 100px auto;
+	background: ;
 }
 
 section {
@@ -32,10 +32,14 @@ section h1 {
 	padding-top: var(--paddingTop);
 }
 
+section h1:hover {
+	color: hsl(178, 100%, 50%);
+}
+
 section p {
 	margin-left: var(--marginText);
 	padding-top: var(--paddingTop);
-	font-size: 21x;
+	font-size: 18px;
 	color: hsl(215, 51%, 70%);
 }
 
