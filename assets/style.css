@@ -7,7 +7,7 @@ body {
 	display: flex;
 	justify-content: center;
 	margin: 100px auto;
-	background: ;
+	background: hsl(217, 54%, 11%);
 }
 
 section {
