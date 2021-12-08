@@ -1,0 +1,14 @@
+@media(max-width: 780px) {
+
+	body {
+		margin: 65px 10px;
+	}
+	
+	section {
+		width: 355px;
+	}
+
+	section img {
+		width: 83%;
+	}
+}
